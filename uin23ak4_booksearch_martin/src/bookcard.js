@@ -2,7 +2,9 @@ import React from 'react';
 
 //har fått hjelp av ChatGPT
 //pluss Youtube videoer og nettsider hvor jeg har søkt på problemene jeg ville ha svar på
-//
+//https://www.youtube.com/watch?v=Ts3kTbdQ_4U
+//https://www.tabnine.com/code/javascript/classes/react/BookCard
+//https://www.freecodecamp.org/news/javascript-url-encode-example-how-to-use-encodeuricomponent-and-encodeuri/
 
 const BookCard = ({ book }) => {
   const { title, author_name, publish_year} = book;

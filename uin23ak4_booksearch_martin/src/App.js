@@ -25,7 +25,7 @@ function App() {
   const handleSearch = (event) => {
     setSearchTerm(event.target.value);
   };
-
+//https://www.tabnine.com/code/javascript/classes/react/BookCard
   //brukte chatgpt til denne også
   const filteredBooks = books.filter(book =>
     book.title.toLowerCase().includes(searchTerm.toLowerCase())
